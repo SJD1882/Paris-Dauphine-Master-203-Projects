@@ -1,0 +1,171 @@
+The system is: Windows - 10.0.15063 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.11.25503/bin/Hostx64/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.11.25547 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.11.25547.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "C:/Users/Sebastien David/cpp_dauphine/projects/CPP_SCORING_FX/sandbox/build/CMakeFiles/3.10.0-rc3/CompilerIdC/CMakeCCompilerId.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.11.25503/bin/Hostx64/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.11.25547 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.11.25547.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/Sebastien David/cpp_dauphine/projects/CPP_SCORING_FX/sandbox/build/CMakeFiles/3.10.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/Sebastien David/cpp_dauphine/projects/CPP_SCORING_FX/sandbox/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/NOLOGO" "cmTC_b8482\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_b8482.dir\build.make /nologo -L                  CMakeFiles\cmTC_b8482.dir\build
+Building C object CMakeFiles/cmTC_b8482.dir/testCCompiler.c.obj
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\Hostx64\x64\cl.exe @C:\Users\SEBAST~1\AppData\Local\Temp\nm1DCC.tmp
+testCCompiler.c
+Linking C executable cmTC_b8482.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_b8482.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_b8482.dir\objects1.rsp @C:\Users\SEBAST~1\AppData\Local\Temp\nm1F44.tmp
+MT: command "mt /nologo /manifest CMakeFiles\cmTC_b8482.dir/intermediate.manifest /out:CMakeFiles\cmTC_b8482.dir/embed.manifest /notify_update" failed (exit code 0x41020001) with the following output:
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Sebastien David/cpp_dauphine/projects/CPP_SCORING_FX/sandbox/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/NOLOGO" "cmTC_d6b4e\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_d6b4e.dir\build.make /nologo -L                  CMakeFiles\cmTC_d6b4e.dir\build
+Building C object CMakeFiles/cmTC_d6b4e.dir/CMakeCCompilerABI.c.obj
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\Hostx64\x64\cl.exe @C:\Users\SEBAST~1\AppData\Local\Temp\nm2231.tmp
+CMakeCCompilerABI.c
+Linking C executable cmTC_d6b4e.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_d6b4e.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_d6b4e.dir\objects1.rsp @C:\Users\SEBAST~1\AppData\Local\Temp\nm229F.tmp
+MT: command "mt /nologo /manifest CMakeFiles\cmTC_d6b4e.dir/intermediate.manifest /out:CMakeFiles\cmTC_d6b4e.dir/embed.manifest /notify_update" failed (exit code 0x41020001) with the following output:
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/Sebastien David/cpp_dauphine/projects/CPP_SCORING_FX/sandbox/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/NOLOGO" "cmTC_eeefc\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_eeefc.dir\build.make /nologo -L                  CMakeFiles\cmTC_eeefc.dir\build
+Building CXX object CMakeFiles/cmTC_eeefc.dir/testCXXCompiler.cxx.obj
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\Hostx64\x64\cl.exe @C:\Users\SEBAST~1\AppData\Local\Temp\nm253E.tmp
+testCXXCompiler.cxx
+Linking CXX executable cmTC_eeefc.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_eeefc.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_eeefc.dir\objects1.rsp @C:\Users\SEBAST~1\AppData\Local\Temp\nm25AD.tmp
+MT: command "mt /nologo /manifest CMakeFiles\cmTC_eeefc.dir/intermediate.manifest /out:CMakeFiles\cmTC_eeefc.dir/embed.manifest /notify_update" failed (exit code 0x41020001) with the following output:
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Sebastien David/cpp_dauphine/projects/CPP_SCORING_FX/sandbox/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/NOLOGO" "cmTC_5d3c5\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_5d3c5.dir\build.make /nologo -L                  CMakeFiles\cmTC_5d3c5.dir\build
+Building CXX object CMakeFiles/cmTC_5d3c5.dir/CMakeCXXCompilerABI.cpp.obj
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\Hostx64\x64\cl.exe @C:\Users\SEBAST~1\AppData\Local\Temp\nm281D.tmp
+CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_5d3c5.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_5d3c5.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_5d3c5.dir\objects1.rsp @C:\Users\SEBAST~1\AppData\Local\Temp\nm288B.tmp
+MT: command "mt /nologo /manifest CMakeFiles\cmTC_5d3c5.dir/intermediate.manifest /out:CMakeFiles\cmTC_5d3c5.dir/embed.manifest /notify_update" failed (exit code 0x41020001) with the following output:
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/Users/Sebastien David/cpp_dauphine/projects/CPP_SCORING_FX/sandbox/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/NOLOGO" "cmTC_63710\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_63710.dir\build.make /nologo -L                  CMakeFiles\cmTC_63710.dir\build
+Building CXX object CMakeFiles/cmTC_63710.dir/feature_tests.cxx.obj
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\Hostx64\x64\cl.exe @C:\Users\SEBAST~1\AppData\Local\Temp\nm2C14.tmp
+feature_tests.cxx
+Linking CXX executable cmTC_63710.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_63710.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1411~1.255\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_63710.dir\objects1.rsp @C:\Users\SEBAST~1\AppData\Local\Temp\nm2C92.tmp
+MT: command "mt /nologo /manifest CMakeFiles\cmTC_63710.dir/intermediate.manifest /out:CMakeFiles\cmTC_63710.dir/embed.manifest /notify_update" failed (exit code 0x41020001) with the following output:
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
