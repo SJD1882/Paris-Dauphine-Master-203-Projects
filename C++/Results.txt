@@ -1,0 +1,95 @@
+A C++ SCORING ALGORITHM FOR RANKING GLOBAL CURRENCIES BASED ON FINANCIAL MARKET SENTIMENT
+
+A simple method for ranking currencies based on their relative stability
+
+1. ROUTINE
+Using the C++ programming language (and testing with generated data), produce a routine performing the
+approximation of an antisymmetrical matrix with the outerdifference of a score vector.
+
+Invoked Scoring(). Initialized Scoring Object.
+Invoked Regression(). Initialized Regression Object.
+Invoked RandomSkewMatrix(). Overwritten SkewMatrix.
+Generated SkewMatrix of dimension (20,20)
+Invoked EigenLeastSquares() successfully.
+
+=========================================================
+SUMMARY OF RESULTS
+=========================================================
+Time: Mon Jan  8 14:36:00 2018
+Method: Least Squares by Singular Value Decomposition
+External library: Eigen
+Data: Random
+No. Observations: 380
+No. Currencies: 20
+Frobenius Norm (approximation cost): 49981
+---------------------------------------------------------
+SCORES
+---------------------------------------------------------
+Score 6 : 5.21053
+Score 8 : 3.05556
+Score 11 : 3
+Score 10 : 2.72222
+Score 12 : 2.36842
+Score 7 : 2
+Score 20 : 1.36842
+Score 19 : 0.789474
+Score 15 : 0.166667
+Score 4 : -0.166667
+Score 5 : -0.210526
+Score 13 : -1.21053
+Score 3 : -1.45404
+Score 14 : -1.73684
+Score 16 : -2.05556
+Score 2 : -2.05556
+Score 1 : -2.1727
+Score 9 : -2.84211
+Score 17 : -3.26316
+Score 18 : -4.11111
+=========================================================
+
+Press any key to continue . . .
+
+
+2. REAL-WORLD SNAPSHOT
+Using a real-world snapshot of the 25-Delta risk reversal values, compute a ''score'' for a list of at least 15
+currencies of the world following the criterion described in the previous section, including precious metals.
+
+Invoked ImportSkewMatrix(). Overwritten dim, SkewMatrix, ImportedData.
+Invoked ImportCurrencies(). Overwritten Currencies.
+Invoked EigenLeastSquares() successfully.
+
+=========================================================
+SUMMARY OF RESULTS
+=========================================================
+Time: Mon Jan  8 14:36:02 2018
+Method: Least Squares by Singular Value Decomposition
+External library: Eigen
+Data: Imported
+No. Observations: 342
+No. Currencies: 19
+Frobenius Norm (approximation cost): 28.5363
+---------------------------------------------------------
+SCORES
+---------------------------------------------------------
+1. XAU : 0.567956
+2. XAG : 0.562206
+3. CHF : 0.531661
+4. EUR : 0.399333
+5. JPY : 0.37995
+6. CNY : 0.290411
+7. USD : 0.187278
+8. GBP : 0.168128
+9. HKD : 0.157778
+10. DKK : 0.143306
+11. CAD : 0.132082
+12. AUD : 0.112983
+13. NZD : 0.106217
+14. SEK : 0.0860667
+15. NOK : 0.00666111
+16. THB : -0.0491
+17. BRL : -0.865278
+18. RUB : -1.36694
+19. ZAR : -1.54273
+=========================================================
+
+Press any key to continue . . .
