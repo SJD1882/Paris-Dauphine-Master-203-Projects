@@ -1,0 +1,62 @@
+f1 - net profit / total assets
+f2 - total liabilities / total assets
+f3 - working capital / total assets
+f4 - current assets / short-term liabilities
+f5 - [(cash + short-term securities + receivables - short-term liabilities) / (operating expenses - depreciation)] * 365
+f6 - retained earnings / total assets
+f7 - EBIT / total assets
+f8 - book value of equity / total liabilities
+f9 - sales / total assets
+f10 - equity / total assets
+f11 - (gross profit + extraordinary items + financial expenses) / total assets
+f12 - gross profit / short-term liabilities
+f13 - (gross profit + depreciation) / sales
+f14 - (gross profit + interest) / total assets
+f15 - (total liabilities * 365) / (gross profit + depreciation)
+f16 - (gross profit + depreciation) / total liabilities
+f17 - total assets / total liabilities
+f18 - gross profit / total assets
+f19 - gross profit / sales
+f20 - (inventory * 365) / sales
+f22 - profit on operating activities / total assets
+f23 - net profit / sales
+f24 - gross profit (in 3 years) / total assets
+f25 - (equity - share capital) / total assets
+f26 - (net profit + depreciation) / total liabilities
+f28 - working capital / fixed assets
+f29 - logarithm of total assets (in euros)
+f30 - (total liabilities - cash) / sales
+f31 - (gross profit + interest) / sales
+f32 - (current liabilities * 365) / cost of products sold
+f33 - operating expenses / short-term liabilities
+f34 - operating expenses / total liabilities
+f35 - profit on sales / total assets
+f36 - total sales / total assets
+f37 - (current assets - inventories) / long-term liabilities
+f38 - constant capital / total assets
+f39 - profit on sales / sales
+f40 - (current assets - inventory - receivables) / short-term liabilities
+f41 - total liabilities / ((profit on operating activities + depreciation) * (12/365))
+f42 - profit on operating activities / sales
+f43 - rotation receivables + inventory turnover in days
+f44 - (receivables * 365) / sales
+f45 - net profit / inventory
+f46 - (current assets - inventory) / short-term liabilities
+f47 - (inventory * 365) / cost of products sold
+f48 - EBITDA (profit on operating activities - depreciation) / total assets
+f49 - EBITDA (profit on operating activities - depreciation) / sales
+f50 - current assets / total liabilities
+f51 - short-term liabilities / total assets
+f52 - (short-term liabilities * 365) / cost of products sold)
+f53 - equity / fixed assets
+f54 - constant capital / fixed assets
+f55 - working capital (in euros)
+f56 - (sales - cost of products sold) / sales
+f57 - (current assets - inventory - short-term liabilities) / (sales - gross profit - depreciation)
+f58 - total costs /total sales
+f59 - long-term liabilities / equity
+f60 - sales / inventory
+f61 - sales / receivables
+f62 - (short-term liabilities *365) / sales
+f63 - sales / short-term liabilities
+f64 - sales / fixed assets
